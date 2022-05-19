@@ -1,13 +1,18 @@
+
+
 .list-wrapper{
-  @apply container text-center
+  @apply container
 }
 
 .todo-item-container{
-  @apply border-y-blue-700
+  @apply border-y-blue-700 border-y-blue-900 m-0 flex justify-center items-center h-screen
 }
 
+.new-todo-form{
+  @apply justify-center text-center mt-10
+}
 .completed-button{
-  @apply border-blue-700 bg-green-600 text-white
+  @apply border-blue-700 bg-green-600 text-white mr-5
 }
 
 .remove-button{
