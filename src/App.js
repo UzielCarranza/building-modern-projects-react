@@ -1,10 +1,11 @@
 
 import './App.css';
+import TodoList from "./todos/TodoList";
 
 function App() {
   return (
     <div className="App">
-      <h1>Initial development of the project</h1>
+        <TodoList/>
     </div>
   );
 }
