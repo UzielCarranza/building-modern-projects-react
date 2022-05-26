@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import {persisStore} from 'redux-persist';
+import {persistStore} from 'redux-persist';
 import {PersistGate} from 'redux-persist/lib/integration/react'
 import App from './App';
 import {configureStore} from "./todos/store";
@@ -9,7 +9,7 @@ import {Provider} from 'react-redux';
 
 
 const store = configureStore();
-const persistor = persisStore(store);
+const persistor = persistStore(store);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
