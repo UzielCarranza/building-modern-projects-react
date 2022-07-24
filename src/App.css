@@ -1,20 +1,7 @@
-
-
-.list-wrapper{
-  @apply container
-}
-
-.todo-item-container{
-  @apply border-y-blue-700 border-y-blue-900 m-0 flex justify-center items-center h-screen
-}
-
-.new-todo-form{
-  @apply justify-center text-center mt-10
-}
-.completed-button{
-  @apply border-blue-700 bg-green-600 text-white mr-5
-}
-
-.remove-button{
-  @apply bg-red-500 text-white
+.App {
+  margin: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222222;
+  width: 100vw;
+  height: 100vh;
 }
